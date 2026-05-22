@@ -12,5 +12,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="e62afb75-6a66-4a3f-86e2-562d75af5876" path="/synthwave84.theme.json"/>
+        <postStartupActivity
+            implementation="com.github.dsandi.synthwave84.GlowStartupActivity"/>
     </extensions>
 </idea-plugin>
